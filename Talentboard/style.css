@@ -66,10 +66,11 @@ a.btn:hover
 }
 .gallery
 {
-    padding: 100px 0;
+    padding: 200px 0;
     background-image: url("images/photo-1602655430715-331d0598334d.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 .gallery-box img
 {
@@ -92,20 +93,24 @@ a.btn:hover
   font-size:30px;
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 25%;
   transform: translate(-10%,-10%);
 }
 .gallery-box
 {
     position: relative;
+    display: flex;
+    justify-content: center;
     margin-bottom: 30px;
 }
 .heading{
     padding-top: 3px;
 }
-.logo-box{
+.logo-box {
     position: relative;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 .logo-box img:hover
 {
@@ -146,8 +151,13 @@ h1::after{
 }
 .mem-pic .img-box{
     opacity: 1;
-    display: block;
-    position: relative;
+    display: flex;
+    justify-content: center;
+  
+}
+.ali{
+    display: flex;
+    justify-content: center;
 }
 .mem-pic .img-box img{
     filter: grayscale(1);
