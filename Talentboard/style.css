@@ -272,3 +272,17 @@ h1::after{
     margin: 3px;
     color: red;
 }
+.brand-font{
+    color: #000;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.sub-font{
+    color: rgb(41, 36, 36);
+    font-size: 18px;
+    font-weight: bold;
+}
+.col-lg-2{
+    padding-right: 0px;
+}
